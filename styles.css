@@ -1,0 +1,144 @@
+/*#css: estilização, a beleza "cores"
+css: cascading stylesheet: folha de estilo de cascata*/
+/*
+seletor: quem eu quero estilizar exemplo: h1{color:brown;} 
+propriedade: o que eu quero alterar: exemplo:color
+valor: o valor que eu quero alterar na propriedade exemplo: a cor exata que quero usar
+
+*/
+/*
+h1{
+color: rgb(240, 25, 225);
+}
+
+
+p{
+    background: gainsboro;
+}
+*/
+/* shift + option + 9 e 8 {} */
+
+/* * = TUDO 
+USAR * NO CSS PARA O CÓDIGO ABRIR EM TODOS SISTEMAS "WINDOW ETCS" 
+SEM DIFERENÇAS 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 0; 
+    /* configurações do css: usar com (*) p/ n haver incompatibilidade
+    distâncias: margin: margem de fora 
+    padding: margem de dentro*/
+    font-family: "Poppins", sans-serif; 
+    /*pego no Google fontes"css":toda minha aplicação vai usar 
+    essa fonte*/ 
+    /*sans-serif: essa fonte será usado caso a poppins n funcione*/
+}
+body{
+    padding-top:20px;
+    padding-right: right 100px;
+    padding-left:100px;
+    /*padding: espaçamento de fora: esquerda/direita/baixo/cima*/
+    /*margin e padding escolho espaço: 
+    top/right/left/bottom*/
+}
+.conteudo{width: 100%;
+          display: flex; 
+          align-items: center;
+          justify-content:space-between; }
+/*width: (ocupar toda a largura,tela toda)
+display:propriedade(exibir/mostrar)
+flex:flexível: apartir dele posso usar: 
+align-items(texto ficou no centro
+display: flex;(os objetos ficam orgaizados)
+justify-content:space-between;(espaço entre os conteúdos*/
+
+.caixa-texto{
+    width:600px;
+}
+
+h1{
+    color: #333;
+    font-size: 60px;
+    font-weight:bold;
+}
+/*font-weight:bold; é 600 de grossura*/
+span{
+    color:#017143;
+    font-size: 60px;
+    font-weight:900;
+}
+/*font-weight: é de 100 á 900*/
+
+/*h1 nao tem class, posso chamar direto*/
+/*cores: nome/código rgb/ código hex
+front-size: tamaho da fonte
+font-weigh: grossura da fonte
+font-weigh:bold (negrito)*/
+
+p{font-size: 16px; }
+
+button{background:#017143; /*cor de fundo*/
+color:#fff;
+border-radius: 40px; /*arredondamento do botão e etc*/
+border: none; /*sem borda*/
+padding: 10px;
+margin-top:20px;
+cursor:pointer; /*muda o ponteiro do mouse*/ 
+transition: 0.5s; /*transição do efeito de mudança de cor do botão,
+referente á button:hover {background:#018950; */
+}
+button:hover {background:#018950;} 
+/*mudar a cor do botão quando o ponteiro do mouse estiver 
+sobre o botão)*/
+
+.caixa-imagem{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end; /*copo fica no canto da tela*/
+    margin-top: 250px; /* deixa o copo no canto de baixo*/
+}
+
+
+/*img{width: 600px;}*/
+    /* largura*/ /*pixel/km/cm/mm/m
+    esse código aumentou todas as imagens no HTML*/
+
+
+/*css: adiciona o sobrenome: class no HTML*/
+
+.starbucks {width: 340px;}
+/*avisa o css que irá usar uma class(sobrenome) 
+com o (.) á frente do starbucks*/
+.menu{display:flex;
+    justify-content: center;}
+
+.botao-menu{
+width: 60px;
+cursor: pointer;
+transition: 0.5s;
+/*transition: o copiho sobe mais devagar*/
+} 
+
+.botao-menu:hover{
+    transform: translateY(-30px);
+}
+/*hover: só acontece quando põe o mouse em cima*/
+/*transformação: transladar/ se mexer -30 (objeto sobe pra cima)
+/*eixo(Y):vertical eixo(X):horizontal*/
+
+.circulo{
+    width:100%; /*largura*/
+    height:100%; /*altura*/
+    background: #017143;
+    position: absolute; /*obj fica exatamente onde quero*/
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px); 
+    /*corte em formato de circulo do lado direito 800px pro lado direito*/
+    z-index: -1; 
+    /*define quem fica na frente de quem
+    (quanto maior o numero mais na frente ele vai ficar
+    quanto menor mais atrás do outro obj)*/
+} 
