@@ -38,10 +38,9 @@ Seções bem organizadas e de fácil navegação.
 ## 📸 Demonstração
 
 ### 🖥️ Versão Desktop  
-![Layout Desktop]([./desktop.png](https://github.com/Nadhia-Sabat/starbucks1-02.05/blob/master/imgmain.png))
+![Layout Desktop](https://github.com/Nadhia-Sabat/starbucks1-02.05/blob/master/img/main.png?raw=true)
 
 
-https://github.com/Nadhia-Sabat/starbucks1-02.05/blob/master/imgmain.png
 
 
 
