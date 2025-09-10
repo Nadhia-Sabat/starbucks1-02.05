@@ -47,5 +47,4 @@ https://github.com/Nadhia-Sabat/starbucks1-02.05/blob/master/imgmain.png
 
 
 
-### 🖥️ Versão Desktop  
-![Layout Desktop](./desktop.png)
+
