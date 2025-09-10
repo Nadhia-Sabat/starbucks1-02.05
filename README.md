@@ -37,7 +37,7 @@ Well-organized and easy-to-navigate sections.
 📸 Demo
 🖥️ Desktop Version
 
-![Layout Desktop](https://github.com/Nadhia-Sabat/starbucks1-02.05/blob/master/imgmain2.png?raw=true)
+![Layout Desktop](https://github.com/Nadhia-Sabat/starbucks1-02.05/blob/master/readme1.png?raw=true)
 
 ☕ Starbucks 2025 (Português)
 
