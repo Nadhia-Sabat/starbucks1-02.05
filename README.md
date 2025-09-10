@@ -1,4 +1,45 @@
-☕ Starbucks 2025
+☕Starbucks 2025 (English)
+
+A front-end project inspired by the official Starbucks website, recreated for the purposes of studying and practicing web development.
+
+🚀 Technologies used
+
+HTML5
+
+CSS3
+
+JavaScript
+
+📌Features
+
+Responsive homepage with modern design inspired by Starbucks.
+
+Semantic structure in HTML5.
+
+Advanced styling with CSS3.
+
+Basic interactions with JavaScript (buttons, menus and effects).
+
+🎯 Project objective
+
+This project was developed with the aim of practicing and consolidating fundamental concepts of front-end web development, creating a static page based on the visual identity of a real brand.
+
+🖼️ Layout
+
+The design was inspired by the official Starbucks website, featuring:
+
+Color palette and typography similar to the brand’s visual identity.
+
+Clean and responsive structure.
+
+Well-organized and easy-to-navigate sections.
+
+📸 Demo
+🖥️ Desktop Version
+
+
+
+☕ Starbucks 2025 (Português)
 
 Um projeto front-end inspirado no site oficial da Starbucks, recriado para fins de estudo e prática de desenvolvimento web.
 
