@@ -33,3 +33,9 @@ Paleta de cores e tipografia similares à identidade visual da marca.
 Estrutura clean e responsiva.
 
 Seções bem organizadas e de fácil navegação.
+
+
+## 📸 Demonstração
+
+### 🖥️ Versão Desktop  
+![Layout Desktop](./desktop.png)
